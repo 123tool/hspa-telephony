@@ -1,0 +1,14 @@
+{
+  "country_code": "+62",
+  "local_prefix": "0",
+  "audio": {
+    "sample_rate": 8000,
+    "channels": 1,
+    "format": "u-law",
+    "buffer_size": 512
+  },
+  "modem": {
+    "fallback_audio_port": "/dev/ttyUSB1",
+    "fallback_control_port": "/dev/ttyUSB2"
+  }
+}
