@@ -16,6 +16,7 @@ Sebuah utilitas terminal (*CLI*) ringan, otomatis, dan interaktif untuk menghidu
 ## Panduan Instalasi & Persyaratan
 
 1. Prasyarat Sistem (OS Linux)
+
 ​Aplikasi ini membutuhkan beberapa perkakas sistem untuk memanipulasi port serial dan aliran audio mentah. Jalankan perintah berikut pada terminal Linux Anda (Debian/Ubuntu/Raspberry Pi OS) :
 ```
 sudo apt update
@@ -23,9 +24,11 @@ sudo apt install -y sox libsox-fmt-all modemmanager cu screen python3-pip
 ```
 
 2. Kloning / Siapkan Repositori
+
 Pastikan semua file proyek (`engine.py`, `config.json`, `requirements.txt`, dan `run.sh`) telah diletakkan dalam satu direktori yang sama.
 
 ​3. Konfigurasi Awal (`config.json`)
+
 ​Sesuaikan kode negara pada file `config.json` jika Anda berada di luar Indonesia :
 ```
 {
@@ -44,6 +47,7 @@ Pastikan semua file proyek (`engine.py`, `config.json`, `requirements.txt`, dan 
 ```
 
 ## Cara Menjalankan Aplikasi
+
 - Hubungkan modem USB HSPA/3G Anda ke port USB komputer.
 - Pastikan kartu SIM di dalam modem memiliki pulsa/kredit aktif untuk telepon dan SMS.
 - Berikan hak akses eksekusi pada script wrapper :
@@ -53,8 +57,8 @@ Pastikan semua file proyek (`engine.py`, `config.json`, `requirements.txt`, dan 
   ```
   sudo ./run.sh
 
-
 ## Panduan Penggunaan Antarmuka (CLI)
+
 ​Setelah berhasil dijalankan, Anda akan dihadapkan dengan menu interaktif berbasis terminal :
 ```
 ========================================
